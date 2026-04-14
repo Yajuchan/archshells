@@ -6,4 +6,4 @@ git clone https://aur.archlinux.org/yay.git
 cd ./yay/
 makepkg -si
 mkdir /mnt/hgfs/
-
+yay -S cups ghostscript gsfonts epson-printer-utility epson-inkjet-printer-escpr2 epsonscan2-bin
