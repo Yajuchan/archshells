@@ -8,3 +8,5 @@ makepkg -si
 mkdir /mnt/hgfs/
 yay -S cups ghostscript gsfonts epson-printer-utility epson-inkjet-printer-escpr2 epsonscan2-bin
 yay -S --needed < pkglist.txt
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
