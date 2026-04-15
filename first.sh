@@ -7,3 +7,4 @@ cd ./yay/
 makepkg -si
 mkdir /mnt/hgfs/
 yay -S cups ghostscript gsfonts epson-printer-utility epson-inkjet-printer-escpr2 epsonscan2-bin
+yay -S --needed < pkglist.txt
