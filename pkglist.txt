@@ -122,6 +122,7 @@ pipewire-jack
 pipewire-pulse
 pli-bin
 pli-bin-debug
+qemu-full
 qemu-img
 qps
 qt5-singlecoreapplication
