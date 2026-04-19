@@ -1,5 +1,6 @@
 acpica
 algol68g
+asunder
 baobab
 base
 base-devel
@@ -9,6 +10,7 @@ boost
 breeze-icons
 calico
 catnip
+cdrdao
 clang
 cmake
 cups
@@ -65,6 +67,7 @@ kitty
 l3afpad
 lazygit
 less
+libcdio
 libfat-nds
 libnds
 libpulse
