@@ -13,6 +13,8 @@ sudo pacman -U https://pkg.devkitpro.org/devkitpro-keyring.pkg.tar.zst
 sudo pacman-key --populate devkitpro
 
 sudo cat << EOF >> /etc/pacman.conf
+[multilib]
+Include = /etc/pacman.d/mirrorlist
 [dkp-libs]
 Server = https://pkg.devkitpro.org/packages
 [dkp-linux]
@@ -22,3 +24,9 @@ EOF
 yay -S --needed < pkglist.txt
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+
+rustup target add wasm32-unknown-emscripten
+rustup target add wasm32-unknown-unknown
+rustup target add wasm32-wasip1
+rustup target add x86_64-pc-windows-gnu
+rustup target add i686-pc-windows-gnu
