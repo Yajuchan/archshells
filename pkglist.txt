@@ -146,6 +146,7 @@ ttf-hack-nerd
 unzip
 valgrind
 vim
+visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
