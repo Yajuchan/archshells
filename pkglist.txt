@@ -57,6 +57,7 @@ gradle
 gsfonts
 gsl
 gst-plugin-pipewire
+hexedit
 htop
 iftop
 intel-media-driver
