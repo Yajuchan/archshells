@@ -4,6 +4,7 @@ asunder
 baobab
 base
 base-devel
+bash-completion
 bc
 bin86
 boost
@@ -68,7 +69,6 @@ kitty
 l3afpad
 lazygit
 less
-libcdio
 libfat-nds
 libnds
 libpulse
@@ -99,6 +99,7 @@ lxqt-wayland-session
 maxmod-nds
 meson
 msedit
+mullvad-vpn
 nano
 nasm
 nds-cmake

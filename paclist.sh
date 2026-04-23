@@ -1,0 +1,1 @@
+yay -Qeq > pkglist.txt
