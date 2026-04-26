@@ -1,3 +1,8 @@
+aarch64-linux-gnu-binutils
+aarch64-linux-gnu-gcc
+aarch64-linux-gnu-gdb
+aarch64-linux-gnu-glibc
+aarch64-linux-gnu-linux-api-headers
 acpica
 algol68g
 asunder
@@ -114,6 +119,7 @@ noto-fonts-extra
 npm
 nvm
 obconf-qt
+okteta
 open-vm-tools
 openbox
 openssh
