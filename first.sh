@@ -25,8 +25,4 @@ yay -S --needed < pkglist.txt
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
-rustup target add wasm32-unknown-emscripten
-rustup target add wasm32-unknown-unknown
-rustup target add wasm32-wasip1
-rustup target add x86_64-pc-windows-gnu
-rustup target add i686-pc-windows-gnu
+rustup target add wasm32-unknown-emscripten wasm32-unknown-unknown wasm32-wasip1 x86_64-pc-windows-gnu i686-pc-windows-gnu arm-unknown-linux-gnueabihf armv7-unknown-linux-gnueabihf aarch64-unknown-linux-gnu aarch64-unknown-none
